@@ -1,8 +1,9 @@
 # Tensile Manual Builder
 
 This browser app reads raw tensile curves from the provided Bluehill `.id_tens`
-layout, overlays specimens, calculates an average force-versus-extension curve,
-and exports a product-manual PDF.
+layout, calculates an average force-versus-extension curve, and exports a
+hard-edged material data-sheet PDF. The data-sheet layout includes an uploaded
+logo, product identity, editable manual properties, and scientific plots.
 
 ## Run in a browser workspace
 
@@ -24,7 +25,11 @@ public demo host unless your employer approves uploading the test data there.
 * Full and early-stretch overlay plots.
 * Average curve on the common extension range, with a ±1 standard-deviation
   band.
-* Product property entry and PDF export.
+* Editable product name, item number, description, average diameter,
+  cross-sectional area, denier, and shrinkage percentage.
+* Fixed shrinkage test-condition text: `200 °C for 3 min`.
+* Optional logo in the upper-left of the app and PDF.
+* Material data-sheet PDF export.
 
 ## Important validation
 
